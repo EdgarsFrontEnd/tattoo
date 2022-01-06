@@ -944,4 +944,13 @@ footer {
     margin: 1rem 0 3rem 0;
   }
 }
+
+@media not all and (min-resolution:.001dpcm) { 
+     @supports (-webkit-appearance:none) {
+          #submit{
+            height: 1.5rem;
+            background-color: red;
+          }
+     }
+}
 /*# sourceMappingURL=sass.css.map */
