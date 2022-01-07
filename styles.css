@@ -962,9 +962,7 @@ footer {
 
 @media not all and (min-resolution:.001dpcm) { 
      @supports (-webkit-appearance:none) {
-          #submit{
-            height: 2.5rem;
-          }
+        
      }
 }
 /*# sourceMappingURL=sass.css.map */
