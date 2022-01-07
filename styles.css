@@ -964,6 +964,10 @@ footer {
           font-family: font-family: 'Montserrat', sans-serif;
           font-family: "Genos", sans-serif;
         }
+       
+       .picture{
+         min-height: 144px;
+         min-width: 144px;
      }
 }
 /*# sourceMappingURL=sass.css.map */
