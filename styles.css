@@ -18,6 +18,15 @@ html.touch *:hover {
   all: unset !important;
 }
 
+input {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+opacity: 1;
+}
+
+input:focus { font-size: 16px!important}
+
 :root {
   /* --superColor: #810853; */
   --superColor: #09537e;
@@ -56,6 +65,8 @@ body {
 
 html {
   scroll-behavior: smooth;
+  /* from 720vw to 1200vw */
+  /* font-size: clamp(1rem, 0.8125rem + 0.4167vw, 1.125rem); */
 }
 
 a {
@@ -265,6 +276,7 @@ nav .logo h4:after {
   background-size: cover;
   -webkit-transform: translate(-7%, 0);
   transform: translate(-7%, 0);
+  z-index: 105;
 }
 
 /* mobile menu */
@@ -484,6 +496,7 @@ p {
   width: 80%;
   aspect-ratio: 1;
   border-radius: 50%;
+  z-index: 105;
 }
 
 .about-section .artist .pic1 {
@@ -933,10 +946,6 @@ footer {
     padding-bottom: 0;
     text-align: center;
   }
-  .up-arrow a {
-    bottom: 0.5rem;
-    right: 0.15rem;
-  }
   .intro-content {
     text-align: center;
     -webkit-box-align: center;
@@ -951,4 +960,11 @@ footer {
   }
 }
 
+@media not all and (min-resolution:.001dpcm) { 
+     @supports (-webkit-appearance:none) {
+          #submit{
+            height: 2.5rem;
+          }
+     }
+}
 /*# sourceMappingURL=sass.css.map */
