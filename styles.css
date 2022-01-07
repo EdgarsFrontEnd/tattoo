@@ -421,8 +421,6 @@ img {
 /* ABOUT SECTION */
 .about-section {
   padding: 2rem 9rem 4rem 9rem;
-  /* height: 180vh; */
-  position: relative;
   background-color: #ffffff;
 }
 
