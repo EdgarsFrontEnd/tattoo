@@ -476,15 +476,15 @@ p {
 }
 
 .about-section .artist .pic1 {
-  background: url(./tattoo-pics/artists/tattoo-artist1.jpg);
+  background-image: url(./tattoo-pics/artists/tattoo-artist1.jpg);
 }
 
 .about-section .artist .pic2 {
-  background: url(./tattoo-pics/artists/tattoo-artist2.jpg);
+  background-image: url(./tattoo-pics/artists/tattoo-artist2.jpg);
 }
 
 .about-section .artist .pic3 {
-  background: url(./tattoo-pics/artists/tattoo-artist3.jpg);
+  background-image: url(./tattoo-pics/artists/tattoo-artist3.jpg);
 }
 
 .about-section .artist .picture {
