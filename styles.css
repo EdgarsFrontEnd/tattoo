@@ -276,7 +276,6 @@ nav .logo h4:after {
   background-size: cover;
   -webkit-transform: translate(-7%, 0);
   transform: translate(-7%, 0);
-  z-index: 105;
 }
 
 /* mobile menu */
@@ -494,7 +493,6 @@ p {
   width: 80%;
   aspect-ratio: 1;
   border-radius: 50%;
-  z-index: 105;
 }
 
 .about-section .artist .pic1 {
@@ -966,8 +964,8 @@ footer {
         }
        
        .picture{
-         min-height: 144px;
-         min-width: 144px;
+         min-height: 190px;
+         min-width: 168px;
      }
 }
 /*# sourceMappingURL=sass.css.map */
