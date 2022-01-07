@@ -960,7 +960,6 @@ footer {
      @supports (-webkit-appearance:none) {
         nav .logo h4 {
           font-family: font-family: 'Montserrat', sans-serif;
-          font-family: "Genos", sans-serif;
         }
        
        .picture{
