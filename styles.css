@@ -18,15 +18,6 @@ html.touch *:hover {
   all: unset !important;
 }
 
-input {
--webkit-appearance: none;
--moz-appearance: none;
-appearance: none;
-opacity: 1;
-}
-
-input:focus { font-size: 16px!important}
-
 :root {
   /* --superColor: #810853; */
   --superColor: #09537e;
@@ -65,8 +56,6 @@ body {
 
 html {
   scroll-behavior: smooth;
-  /* from 720vw to 1200vw */
-  /* font-size: clamp(1rem, 0.8125rem + 0.4167vw, 1.125rem); */
 }
 
 a {
@@ -74,15 +63,23 @@ a {
 }
 
 /* bookmark up */
-.up-arrow a {
+.up-arrow {
+  background-color: var(--superColor);
+  width: 2.5rem;
+  height: 2.5rem;
   position: fixed;
   bottom: 1.5rem;
-  right: 1.5rem;
-  font-size: 2rem;
-  color: var(--superColor);
+  right: 0;
+  font-size: 1.5rem;
   z-index: 1;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px 0 0 5px;
+}
+
+.up-arrow a {
+  color: white;
 }
 
 /* Centering stuff */
@@ -268,7 +265,6 @@ nav .logo h4:after {
   background-size: cover;
   -webkit-transform: translate(-7%, 0);
   transform: translate(-7%, 0);
-  z-index: 105;
 }
 
 /* mobile menu */
@@ -488,7 +484,6 @@ p {
   width: 80%;
   aspect-ratio: 1;
   border-radius: 50%;
-  z-index: 105;
 }
 
 .about-section .artist .pic1 {
@@ -956,12 +951,4 @@ footer {
   }
 }
 
-@media not all and (min-resolution:.001dpcm) { 
-     @supports (-webkit-appearance:none) {
-          #submit{
-            height: 1.5rem;
-            background-color: red;
-          }
-     }
-}
 /*# sourceMappingURL=sass.css.map */
